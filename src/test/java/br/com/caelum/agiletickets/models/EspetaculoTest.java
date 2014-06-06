@@ -40,7 +40,7 @@ public class EspetaculoTest {
 		
 		List<Sessao> sessoes = espetaculo.criaSessoes(inicioSessao, fimSessao, hora, periodicidade);
 		Assert.assertNotNull(sessoes);
-		Assert.assertEquals(6, sessoes.size());
+		Assert.assertEquals(5, sessoes.size());
 
 	}
 	
